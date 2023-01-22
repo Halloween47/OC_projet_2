@@ -29,3 +29,57 @@ p:nth-child(3) {
     font-size: 16px;
     line-height: 19px;
 }
+
+body {
+background-color: red;
+margin: 0; padding: 0;
+}
+/* HEADER */
+header {
+    background-color: #fff; 
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#header-logo {
+    /* background-color: violet; */
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header-logo img {
+    /* background-color: yellow; */
+    width: 50px;
+    height: auto;
+    
+}
+header nav ul{
+    /* background-color: blue; */
+    
+    display: flex;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+    margin: inherit;
+    padding-right: 30px;
+
+    font-family: 'Raleway-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+header nav ul li {
+    /* background-color: aqua; */
+    margin: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+header nav ul li:hover {
+    color: #0065FC;
+    border-top: 5px solid #0065FC;
+}
+.border { border-top: 5px solid transparent; }

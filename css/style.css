@@ -6,7 +6,12 @@
     font-family: "Raleway-Regular";
     src: url("../assets/fonts/Raleway/Raleway-Regular.ttf") format("truetype");
 }
-
+.bold {
+    font-family: 'Raleway-Bold';
+}
+.regular {
+    font-family: 'Raleway-Regular';
+}
 p:nth-child(1) {
     font-family: 'Raleway-Bold';
     font-style: normal;
@@ -33,6 +38,9 @@ p:nth-child(3) {
 body {
 background-color: red;
 margin: 0; padding: 0;
+}
+main {
+    margin: 20px;
 }
 /* HEADER */
 header {
@@ -65,7 +73,7 @@ header nav ul{
     margin: inherit;
     padding-right: 30px;
 
-    font-family: 'Raleway-Regular';
+    
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -83,3 +91,69 @@ header nav ul li:hover {
     border-top: 5px solid #0065FC;
 }
 .border { border-top: 5px solid transparent; }
+/* FORMULAIRE */
+#form {
+    /* background-color: orange; */
+    width: 100%;
+    /* padding: 20px 0px 0px 20px; */
+    padding: 20px 0px;
+}
+form p{
+    /* background-color: red; */
+    width: 500px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+#form-icon {
+    background-color: #F2F2F2;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 15px 0px 0px 15px;
+}
+#location {
+    height: 50px;
+    border-top: solid 2px #F2F2F2;
+    border-bottom: solid 2px #F2F2F2;
+}
+
+input[type=search] {
+    padding-left: 10px;
+    font-family: "Raleway-Bold", sans-serif;
+    border-color: #d9d9d9;
+    border: none;
+
+    font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+/* text-align: center; */
+}
+#form button {
+    background-color: #0065FC;
+    color: #fff;
+    /* border-color: transparent; */
+    width: 132px;
+    height: 50px;
+    font-family: 'Raleway-Bold', serif;
+    
+    font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+border: 1px solid #0065FC;
+border-radius: 0px 15px 15px 0px;
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 15px 16px;
+gap: 10px;
+}

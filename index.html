@@ -22,10 +22,27 @@
         </div>
         <nav>
             <ul>
-                <li class="border">Hébergements</li>
-                <li class="border">Activités</li>
+                <li class="border regular">Hébergements</li>
+                <li class="border regular">Activités</li>
             </ul>
         </nav>
     </header>
+    <main>
+        <div>
+            <h1 class="bold">Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p class="regular">En plein centre ville ou en pleine nature</p>
+        </div>
+        <div id="form">
+            <form method="get" action="test.php">
+                <p>
+                    <label id="form-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </label>
+                    <input type="search" name="location" id="location" placeholder="Ex. : Nantes, France" size="20" maxlength="20" value="Marseille, France">
+                    <button>Rechercher</button>
+                </p>
+            </form>
+        </div> 
+    </main>
 </body>
 </html>

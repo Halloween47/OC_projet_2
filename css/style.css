@@ -27,8 +27,12 @@
     font-size: 16px;
     line-height: 19px;
 }
-
-
+.paddingRight30 {
+    padding-right: 30px;
+}
+.marginRight40 {
+    margin-right: 40px;
+}
 body {
     background-color: red;
     margin: 0; padding: 0;
@@ -199,7 +203,7 @@ input[type=search] {
     text-transform: capitalize;
 }
 
-/* ZONE Card "Hebergement" */
+/* Card "Hebergement" */
 .hebergementCard {
     /* background: blue; */
     width: 246px;
@@ -268,7 +272,7 @@ input[type=search] {
     color: #F2F2F2 !important;
 }
 
-/* ZONE Card "les plus populaires" */
+/* Card "les plus populaires" */
 .populairesCard {
     background: #fff;
     width: 343px;
@@ -300,13 +304,75 @@ input[type=search] {
     object-fit: cover;
 }
 .populairesCardBg {
-display: flex;
-flex-direction: column;
-justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .populairesCardTxts {
     width: 169px;height: 39px;
     border: 5px solid #FFFFFF;
     margin-left: 10px;
     margin-top: 10px;
+}
+
+/* affichage des conteneurs
+“Hébergements à Marseille” et “Les plus populaires” */
+.zoneHebergement {
+    background-color: blue;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.zoneHebergementMarseille {
+    background: #F2F2F2;
+    border-radius: 20px;
+    width: 60%;height: 626px;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 22px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.zoneHebergementMarseille h2,p {
+    margin-left: 40px;
+}
+.zonePopulaires {
+    background: #F2F2F2;
+    border-radius: 20px;
+    width: 30%;height: 626px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 33px;
+}
+.zonePopulairesHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px;
+}
+.zonePopulaires h2 {
+    margin-left: 40px;
+}
+.zonePopulairesHeader i {
+    color: #0065FC;
+}
+.populairesCards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 33px;
+}
+.hebergementCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* padding: 30px; */
+    gap: 22px;
 }

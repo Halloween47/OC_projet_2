@@ -416,3 +416,41 @@ input[type=search] {
 .zoneMarseilleActivity h2 {
     margin-left: 40px;
 }
+
+/* Étape 10 : Implémentez le footer */
+footer {
+    background: #F2F2F2;
+    width: 100%; height: 225px;
+    display: flex;
+    justify-content: center;
+}
+.footerColonnes {
+    /* background-color: blue; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+}
+.footerColonne {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 76px;
+    position: relative;
+    width: 20%;height: auto;
+}
+.footerColonne h3 {
+    margin-bottom: 0px;
+}
+.footerColonne ul {
+    /* position: absolute; */
+    margin: 0;
+    padding-left: 0px;
+}
+.footerColonne li {
+    list-style: none;
+    margin: 12px 0px;
+}
+.footerColonne li a {
+    text-decoration: none;
+    color: inherit;
+}

@@ -638,18 +638,13 @@ footer {
         margin-right: 0px;
         padding: 0px;
     }
-    header nav ul {
-        /* background-color: yellow; */
-        /* justify-content: space-between; */
-    }
+    
     header nav ul li {
         /* background-color: #0b61e2; */
         width: 50%;
         /* padding: 0px 50px 0px 0px; */
     }
-    header nav ul li a {
-        /* padding: 0px 100px; */
-    }
+    
     #title p {
         margin: 0;
     }
